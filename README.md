@@ -17,9 +17,25 @@ This notebook demonstrates how to use ensemble learning techniques for both clas
 - Builds multiple independent models (usually of the same type) on random subsets of the data and averages their predictions.
 - Example: Random Forest.
 
-### 2. Boosting
-- Builds models sequentially, each new model focusing on correcting errors made by previous ones.
-- Example: AdaBoost, Gradient Boosting.
+# Boosting Algorithms: Classification & Regression
+
+This notebook demonstrates how to use boosting algorithms for both classification and regression tasks using Python and scikit-learn.
+
+---
+
+## What is Boosting?
+
+- Boosting is an ensemble technique that combines multiple weak learners (usually decision trees) sequentially.
+- Each new model focuses on correcting the errors made by the previous models.
+- Boosting improves accuracy and reduces bias, often outperforming single models and bagging methods.
+
+---
+
+## Common Boosting Algorithms
+
+- **AdaBoost (Adaptive Boosting):** Sequentially adds weak learners, adjusting weights for misclassified samples.
+- **Gradient Boosting:** Builds models in a stage-wise fashion, optimizing a loss function.
+- **XGBoost, LightGBM
 
 ### 3. Voting & Averaging
 - **Voting Classifier:** Combines predictions from multiple classifiers (classification).  
